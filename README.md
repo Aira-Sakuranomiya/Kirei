@@ -1,2 +1,2 @@
 # Kirei
- A simple page for Calibur homepage
+ A simple html for Calibur's homepage

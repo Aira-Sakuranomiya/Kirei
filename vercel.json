@@ -1,12 +1,12 @@
 {
-    "github": {
-        "silent": true
-    },
-    "redirects": [
+    "routes": [
         {
-            "source": "/*",
-            "destination": "/",
-            "permanent": false
+            "handle": "filesystem"
+        },
+        {
+            "src": "/(.*)",
+            "status": 404,
+            "dest": "/"
         }
     ]
 }
